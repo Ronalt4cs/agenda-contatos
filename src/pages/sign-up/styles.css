@@ -1,0 +1,24 @@
+.container-signup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.container-signup img {
+  width: 50%;
+  height: 100vh;
+}
+
+@media (max-width: 950px) {
+  .container-signup {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-signup img {
+    display: none;
+  }
+}

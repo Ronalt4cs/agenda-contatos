@@ -1,0 +1,34 @@
+.modal-delete {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 477px;
+  height: 319px;
+
+  background: #FFFDFD;
+  border-radius: 8px;
+}
+
+.modal-delete p {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 480px) {
+  .modal-delete {
+    justify-content: center;
+    width: 98%;
+    height: 98%;
+  }
+
+  .modal-delete h1 {
+    font-size: 28px;
+  }
+
+  .btn-close-modal {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+  }
+}

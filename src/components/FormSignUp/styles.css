@@ -1,0 +1,51 @@
+.form-signup {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.content-signup {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  width: 476px;
+}
+
+.bottom-text {
+  align-self: center;
+  margin-top: 96px;
+}
+
+.btn-login {
+  all: unset;
+  margin-top: 56px;
+}
+
+@media (max-width: 950px) {
+  .form-signup {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .content-signup {
+    width: 400px;
+    gap: 14px;
+  }
+
+  .bottom-text {
+    margin-top: 16px;
+  }
+
+  .btn-login {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 493px) {
+  .content-signup {
+    width: 300px;
+  }
+}

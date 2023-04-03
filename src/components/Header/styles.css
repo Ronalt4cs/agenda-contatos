@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 70px;
+  width: 100%;
+
+  color: #FFF;
+  background-color: #134563;
+}
+
+.btn-logout {
+  all: unset;
+  position: absolute;
+  cursor: pointer;
+  right: 32px;
+}

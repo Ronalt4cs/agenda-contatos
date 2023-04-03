@@ -1,0 +1,40 @@
+.container-table {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 32px;
+
+  width: 956px;
+}
+
+.container-btn-add {
+  all: unset;
+  width: 237px;
+}
+
+.btn-delete-contact {
+  all: unset;
+  cursor: pointer;
+  margin: 0 16px;
+}
+
+.btn-edit-contact {
+  all: unset;
+  cursor: pointer;
+}
+
+@media (max-width: 950px) {
+  .container-table {
+    width: 90%;
+  }
+}
+
+@media (max-width: 518px) {
+  .container-table {
+    align-items: center;
+  }
+
+  .container-btn-add {
+    width: 90%;
+  }
+}
